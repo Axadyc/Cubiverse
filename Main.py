@@ -553,6 +553,16 @@ while running:
                                     closest_res_y = j
 
                                 print(closest_res_x, closest_res_y)
+                                
+                                # if x != x(ia):
+                                #   if x(ia) - x == 0:
+                                #       if y(ia) - y == 0:
+                                #           ok
+                                #   else:
+                                #       if result >= 3:
+                                #           x += 3
+                                #       else:
+                                #           si le resultat = 2 alors +2 ou -2 et +1 pour y etc...
                     if getPlayerByNum(round_number).canMovePlayer(getGameBoardPositionByMouse(pygame.mouse.get_pos())):
                         pass
                       

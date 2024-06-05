@@ -7,6 +7,7 @@ from GameBoardWindows import GameBoardWindows
 from Player import Player
 from math import sqrt
 
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 
@@ -554,6 +555,7 @@ while running:
                                 print(closest_res_x, closest_res_y)
                     if getPlayerByNum(round_number).canMovePlayer(getGameBoardPositionByMouse(pygame.mouse.get_pos())):
                         pass
+                      
     elif GAMESTATUS == GameState.FIGHT:
         drawFight()
         drawDice((350,325), random_dice_value_one)
